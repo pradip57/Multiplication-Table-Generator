@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="main">
+
+        <div id="header">
+            <h2>Multiplication Table Generator</h2>
+        </div>
+
+        <div class="user-input">
+            
+                <h3>Enter the number of which you want to generate the multiplication table</h3>
+                <input type="number" id="user-input1">
+
+                <h3>Enter the number up to which you want to generate the multiplication table</h3>
+                <input type="number" id="user-input2" placeholder="10">
+         </div>
+          
+
+        <button id="generator" onclick="tableFunc()">Generate</button>
+
+        <div id="table-box">
+            <h3 id="table-of"></h3>
+            <div id="table-output">
+                
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

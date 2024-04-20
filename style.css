@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+    display: grid;
+    place-items: center;
+}
+
+
+#main{
+    height: 90vh;
+    width: 95vw;
+    background-color:aquamarine;
+    position: relative;
+}
+
+#header{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 300;
+    
+}
+
+.user-input{
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 20px; 
+    top: 120px;
+    left: 50px;
+
+    & h3{
+        
+        margin: 20px;
+        margin-top: 120px;
+        text-align: center;
+    }
+
+    & #user-input1{
+        height: 30px;
+        width: 150px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        border: 2px solid black;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    & #user-input2{
+        height: 30px;
+        width: 150px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        border: 2px solid black;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+}
+
+#table-box{
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 20px; 
+    top: 120px;
+    right: 50px;
+
+   
+    & h3{
+        
+       
+        margin: 20px;
+        text-align: center;
+        background-color:aquamarine;
+        color: blueviolet;
+        border-radius: 20px;
+    }
+    & #table-output{
+
+        overflow-y: scroll;
+      
+        margin: 20px;
+        height: 410px;
+        font-size: 30px;
+        
+        text-align: center;
+        
+    }
+}
+#generator{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    color: gray;
+    
+}
